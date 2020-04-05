@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ConvertReactComponentPracticeToAngular"
+    }
+  },
+  "defaultProject": "ConvertReactComponentPracticeToAngular",
+  "cli": {
+    "analytics": "497eb18f-1af6-4757-81c3-8daf33ba4685"
+  }
 }

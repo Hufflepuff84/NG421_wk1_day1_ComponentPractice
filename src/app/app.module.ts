@@ -8,6 +8,11 @@ import { MessagePreviewComponent } from './message-preview/message-preview.compo
 import { TaskItemComponent } from './task-item/task-item.component';
 import { TopNavComponent } from './top-nav/top-nav.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
+import { CommentsComponent } from './comments/comments.component';
+import { OrdersComponent } from './orders/orders.component';
+import { TicketsComponent } from './tickets/tickets.component';
+import { AreaChartComponent } from './area-chart/area-chart.component';
+import { DonutChartComponent } from './donut-chart/donut-chart.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +22,12 @@ import { SideNavComponent } from './side-nav/side-nav.component';
     MessagePreviewComponent,
     TaskItemComponent,
     TopNavComponent,
-    SideNavComponent
+    SideNavComponent,
+    CommentsComponent,
+    OrdersComponent,
+    TicketsComponent,
+    AreaChartComponent,
+    DonutChartComponent
   ],
   imports: [
     BrowserModule
